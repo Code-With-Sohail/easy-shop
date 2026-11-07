@@ -87,10 +87,10 @@ ul li a:hover {
   align-items: center;
 }
 
-.shopBtn {
+ a .shopBtn {
   margin-top: 15px;
   padding: 5px;
-  width: 25%;
+  width: 100%;
   border-radius: 20px;
   border: none;
   font-size: 16px;
@@ -100,6 +100,7 @@ ul li a:hover {
   color: blue;
   cursor: pointer;
 }
+
 
 .sliderPara {
   font-family: 'Dancing Script', cursive;
@@ -810,4 +811,165 @@ body {
 
 img {
     max-width: 100%;
+}
+
+/* Slider Button Responsive - All Devices */
+
+@media (max-width: 1200px) {
+    .box {
+        width: 60%;
+        height: auto;
+        min-height: 150px;
+    }
+
+    .box a .shopBtn {
+        width: 150px;
+        padding: 9px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .container {
+        height: 50vh;
+        min-height: 280px;
+    }
+
+    .box {
+        width: 70%;
+        height: auto;
+        min-height: 130px;
+        justify-content: center;
+    }
+
+    .box a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .box a .shopBtn {
+        width: 140px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .container {
+        height: 40vh;
+        min-height: 260px;
+    }
+
+    .box {
+        width: 85%;
+        height: auto;
+        min-height: 120px;
+        padding: 10px;
+    }
+
+    .sliderPara {
+        font-size: 17px;
+    }
+
+    .box a .shopBtn {
+        width: 125px;
+        min-height: 38px;
+        font-size: 13px;
+        padding: 8px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 400px) {
+    .container {
+        height: 38vh;
+        min-height: 240px;
+    }
+
+    .box {
+        width: 90%;
+        min-height: 110px;
+    }
+
+    .sliderPara {
+        font-size: 15px;
+    }
+
+    .box a .shopBtn {
+        width: 115px;
+        font-size: 12px;
+    }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 320px) {
+    .container {
+        height: 35vh;
+        min-height: 220px;
+    }
+
+    .box {
+        width: 95%;
+        min-height: 100px;
+    }
+
+    .sliderPara {
+        font-size: 13px;
+    }
+
+    .box a .shopBtn {
+        width: 105px;
+        min-height: 32px;
+        font-size: 11px;
+        padding: 6px;
+    }
+}
+
+/* Landscape Mobile - Horizontal Screen */
+@media (max-height: 450px) and (orientation: landscape) {
+    .container {
+        height: 100vh;
+        min-height: 280px;
+    }
+
+    .box {
+        width: 70%;
+        height: auto;
+        min-height: 0;
+        padding: 5px;
+    }
+
+    .sliderPara {
+        font-size: 16px;
+    }
+
+    .box a .shopBtn {
+        width: 120px;
+        min-height: 32px;
+        margin-top: 5px;
+        padding: 6px;
+    }
+}
+
+/* Very Short Screens */
+@media (max-height: 350px) {
+    .container {
+        min-height: 230px;
+    }
+
+    .box {
+        min-height: 0;
+        padding: 3px;
+    }
+
+    .sliderPara {
+        font-size: 14px;
+    }
+
+    .box a .shopBtn {
+        margin-top: 4px;
+        min-height: 30px;
+    }
 }

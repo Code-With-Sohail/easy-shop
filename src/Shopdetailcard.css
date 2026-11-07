@@ -282,3 +282,163 @@
         font-size: 16px;
     }
 }
+
+/* Responsive Table - Laptop */
+@media (max-width: 1200px) {
+    .shopDetail {
+        width: 100%;
+        padding: 0 15px;
+        overflow-x: hidden;
+    }
+
+    .shopDetail table {
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+
+    .headings th {
+        padding: 10px 5px;
+        font-size: 16px;
+    }
+
+    .items th {
+        padding: 15px 5px;
+        overflow-wrap: anywhere;
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .shopDetail {
+        width: 100%;
+        padding: 0 8px;
+        overflow-x: hidden;
+    }
+
+    .shopDetail table {
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .headings th {
+        font-size: 13px;
+        padding: 8px 3px;
+    }
+
+    .items th {
+        font-size: 13px;
+        padding: 12px 3px;
+    }
+
+    .items img {
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+    }
+
+    .items input {
+        width: 45px;
+        font-size: 14px;
+    }
+
+    .headings i {
+        font-size: 25px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .shopDetail {
+        width: 100%;
+        min-height: 60vh;
+        padding: 0 5px;
+        overflow-x: hidden;
+    }
+
+    .shopDetail table {
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+
+    .headings th {
+        font-size: 11px;
+        padding: 7px 2px;
+    }
+
+    .items th {
+        font-size: 11px;
+        padding: 10px 2px;
+        overflow-wrap: anywhere;
+    }
+
+    .items img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .items input {
+        width: 38px;
+        font-size: 12px;
+    }
+
+    .items i {
+        font-size: 14px;
+    }
+
+    .headings i {
+        font-size: 20px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 400px) {
+    .headings th {
+        font-size: 9px;
+        padding: 6px 1px;
+    }
+
+    .items th {
+        font-size: 9px;
+        padding: 8px 1px;
+    }
+
+    .items img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .items input {
+        width: 32px;
+        font-size: 11px;
+    }
+
+    .items i {
+        font-size: 12px;
+    }
+
+    .headings i {
+        font-size: 17px;
+    }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 320px) {
+    .headings th {
+        font-size: 8px;
+    }
+
+    .items th {
+        font-size: 8px;
+    }
+
+    .items input {
+        width: 28px;
+        font-size: 10px;
+    }
+
+    .headings i {
+        font-size: 15px;
+    }
+}

@@ -54,7 +54,7 @@ const Home = () => {
                     <div className="box">
                         <p className="sliderPara">**Shop Smart, Live Better with Easy Shop!**
                             Discover the latest trends and explore a wide range of quality products at amazing prices. From everyday essentials to your favorite styles, Easy Shop makes online shopping simple, convenient, and enjoyable!</p>
-                        <button className="shopBtn">Shop Now</button>
+                        <a onClick={(e)=>{e.preventDefault}} href="#shop"><button className="shopBtn">Shop Now</button></a>
                     </div>
                     <div className="left-right-icons">
                         <i onClick={() => { handlePrevious() }} class="fa-solid fa-less-than arrow"></i>
