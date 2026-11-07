@@ -442,3 +442,145 @@
         font-size: 15px;
     }
 }
+
+/* Payment Done - Large Screens */
+@media (min-width: 1600px) {
+    .doneContainer {
+        width: 350px;
+        height: 220px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Laptop */
+@media (max-width: 1200px) {
+    .doneContainer {
+        width: 320px;
+        height: 200px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .doneContainer h1 {
+        font-size: 26px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .doneContainer {
+        width: 280px;
+        height: 180px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .done {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+
+    .doneContainer h1 {
+        font-size: 23px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .doneContainer {
+        width: 75%;
+        max-width: 300px;
+        min-height: 160px;
+        height: auto;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .done {
+        font-size: 28px;
+        margin: 12px 0;
+    }
+
+    .doneContainer h1 {
+        font-size: 21px;
+        text-align: center;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 400px) {
+    .doneContainer {
+        width: 85%;
+        max-width: 270px;
+        min-height: 145px;
+        padding: 12px;
+    }
+
+    .done {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+
+    .doneContainer h1 {
+        font-size: 19px;
+    }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 320px) {
+    .doneContainer {
+        width: 90%;
+        min-height: 130px;
+        padding: 10px;
+    }
+
+    .done {
+        font-size: 22px;
+        margin: 8px 0;
+    }
+
+    .doneContainer h1 {
+        font-size: 17px;
+    }
+}
+
+/* Landscape Mobile */
+@media (max-height: 450px) and (orientation: landscape) {
+    .doneContainer {
+        width: 260px;
+        height: auto;
+        min-height: 120px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 8px;
+    }
+
+    .done {
+        font-size: 22px;
+        margin: 5px 0;
+    }
+
+    .doneContainer h1 {
+        font-size: 18px;
+    }
+}
+
+/* Very Short Screens */
+@media (max-height: 300px) {
+    .doneContainer {
+        min-height: 100px;
+        padding: 5px;
+    }
+
+    .done {
+        margin: 3px 0;
+    }
+}
