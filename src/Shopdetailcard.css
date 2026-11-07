@@ -1,0 +1,284 @@
+.shopDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.headings th{
+    padding:0 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.items th{
+    padding: 20px 0;
+}
+
+.items img{
+    width: 100%;
+    object-fit: contain;
+    height: 60px;
+}
+
+.items input{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 50px;
+    font-size: 18px;
+    outline: none;
+}
+
+.items i{
+    cursor: pointer;
+    color: blue;
+    text-shadow: 0 0 1.5px black;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.doneContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 40%;
+    background-color: white;
+    left: 40%;
+    z-index: 2;
+    flex-direction: column;
+    width: 20%;
+    height: 20vh;
+    border: none;
+    box-shadow: 0 0 5px 0 black;
+    border-radius: 20px;
+}
+
+.done {
+    color: green;
+    width: 25px;
+    margin: 20px 0;
+    text-shadow: 0 0 2px black;
+}
+
+.doneContainer h1 {
+    font-family: 'Dancing Script', cursive;
+    color: green;
+}
+
+.headings i{
+    color: red;
+    font-size: 40px;
+    text-shadow: 0 0 3px black;
+    cursor: pointer;
+}
+
+/* Large screens */
+@media (max-width: 1600px) {
+    .doneContainer {
+        width: 25%;
+        left: 37.5%;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1200px) {
+    .shopDetail {
+        height: auto;
+        min-height: 80vh;
+        overflow-x: auto;
+    }
+
+    .headings th {
+        padding: 0 15px;
+        font-size: 18px;
+    }
+
+    .items th {
+        padding: 15px 0;
+    }
+
+    .items img {
+        height: 55px;
+    }
+
+    .doneContainer {
+        width: 30%;
+        left: 35%;
+    }
+
+    .doneContainer h1 {
+        font-size: 25px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .shopDetail {
+        justify-content: flex-start;
+        height: auto;
+        min-height: 70vh;
+        overflow-x: auto;
+    }
+
+    .headings th {
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    .items th {
+        padding: 12px 5px;
+    }
+
+    .items img {
+        height: 50px;
+    }
+
+    .items input {
+        width: 45px;
+        font-size: 16px;
+    }
+
+    .headings i {
+        font-size: 32px;
+    }
+
+    .doneContainer {
+        width: 40%;
+        left: 30%;
+        height: 18vh;
+    }
+
+    .doneContainer h1 {
+        font-size: 22px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .shopDetail {
+        justify-content: flex-start;
+        height: auto;
+        min-height: 60vh;
+        overflow-x: auto;
+    }
+
+    .headings th {
+        padding: 0 8px;
+        font-size: 13px;
+    }
+
+    .items th {
+        padding: 10px 5px;
+    }
+
+    .items img {
+        height: 40px;
+    }
+
+    .items input {
+        width: 40px;
+        font-size: 14px;
+    }
+
+    .items i {
+        font-size: 16px;
+    }
+
+    .headings i {
+        font-size: 27px;
+    }
+
+    .doneContainer {
+        width: 60%;
+        left: 20%;
+        height: 17vh;
+        border-radius: 15px;
+    }
+
+    .doneContainer h1 {
+        font-size: 20px;
+    }
+
+    .done {
+        margin: 12px 0;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 400px) {
+    .headings th {
+        padding: 0 6px;
+        font-size: 12px;
+    }
+
+    .items th {
+        padding: 8px 4px;
+    }
+
+    .items img {
+        height: 35px;
+    }
+
+    .items input {
+        width: 35px;
+        font-size: 13px;
+    }
+
+    .headings i {
+        font-size: 23px;
+    }
+
+    .doneContainer {
+        width: 75%;
+        left: 12.5%;
+        height: 16vh;
+    }
+
+    .doneContainer h1 {
+        font-size: 18px;
+    }
+}
+
+/* Very small mobile */
+@media (max-width: 320px) {
+    .headings th {
+        padding: 0 4px;
+        font-size: 11px;
+    }
+
+    .items th {
+        padding: 7px 3px;
+    }
+
+    .items img {
+        height: 30px;
+    }
+
+    .items input {
+        width: 30px;
+        font-size: 12px;
+    }
+
+    .headings i {
+        font-size: 20px;
+    }
+
+    .doneContainer {
+        width: 85%;
+        left: 7.5%;
+        height: 15vh;
+    }
+
+    .doneContainer h1 {
+        font-size: 16px;
+    }
+}

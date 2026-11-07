@@ -1,0 +1,23 @@
+
+export const product = [
+  { id: 1, image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png", title: "No. 1 Backpack.", price: 109.95, rating: 4.1, discription: "Carry your essentials in style with this versatile and durable backpack. Designed with a spacious interior, it provides plenty of room for books, gadgets, and everyday items. Its comfortable straps make it easy to carry throughout the day. Perfect for school, work, travel, and outdoor adventures. A practical choice for anyone who values comfort and style." },
+  { id: 2, image: "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png", title: "Mens Casual Premium T-Shirts ", price: 22.3, rating: 4.1, discription: "Upgrade your everyday look with this stylish and comfortable cotton T-shirt. Made with soft fabric, it offers a breathable feel for all-day comfort. Its classic design makes it easy to pair with jeans, shorts, or trousers. Perfect for casual outings, daily wear, and relaxed weekends. A must-have addition to every modern wardrobe." },
+  { id: 3, image: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png", title: "Mens Cotton Jacket", price: 55.99, rating: 4.7, discription: "Stay stylish with this fashionable cotton jacket, designed for comfort and everyday versatility. Its soft cotton fabric provides a comfortable feel while adding a modern touch to your outfit. The timeless design pairs effortlessly with jeans and casual trousers. Ideal for outings, travel, and cool evenings. A perfect combination of style, comfort, and practicality." },
+  { id: 4, image: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png", title: "Mens Casual Slim Fit", price: 15.99, rating: 2.1, discription: "Enhance your everyday style with these men's casual slim-fit trousers, designed for a modern and polished appearance. Their tailored fit offers a sleek look while allowing comfortable movement. Easy to pair with T-shirts, shirts, and jackets, they suit a variety of occasions. Perfect for casual outings, gatherings, and everyday wear. A stylish essential for every man's wardrobe." },
+  { id: 5, image: "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png", title: "Chain Bracelet", price: 659, rating: 4.6, discription: "Complete your look with this elegant chain bracelet, featuring a sleek and modern design. Its versatile style makes it suitable for both casual and formal outfits. Lightweight and fashionable, it adds a subtle touch of sophistication to your appearance. Perfect for daily wear, parties, and special occasions. An excellent choice for yourself or as a thoughtful gift." },
+  { id: 6, image: "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png", title: "Solid Gold", price: 168, rating: 3.9 },
+  { id: 7, image: "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png", title: "White Gold", price: 9.99, rating: 3 },
+  { id: 8, image: "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png", title: "Rose Gold", price: 10.99, rating: 1.9 },
+  { id: 9, image: "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png", title: "Hard Drive - USB 3.0", price: 64, rating: 3.3 },
+  { id: 10, image: "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png", title: "SSD PLUS 1TB", price: 109, rating: 2.9 },
+  { id: 11, image: "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png", title: "Silicon Power 256GB SSD", price: 109, rating: 4.8 },
+  { id: 12, image: "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png", title: "4TB Gaming Drive", price: 109, rating: 4.8 },
+  { id: 13, image: "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png", title: "Acer 21.5 inches Full HD (1920 x 1080)", price: 599, rating: 2.9 },
+  { id: 14, image: "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png", title: "Samsung 49-Inch LED", price: 999.99, rating: 2.2 },
+  { id: 15, image: "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_t.png", title: "Women's Jacket Winter Coats", price: 56.99, rating: 2.6 },
+  { id: 16, image: "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_t.png", title: "Women's Removable Hooded Faux Leather", price: 29.95, rating: 2.9 },
+  { id: 17, image: "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2t.png", title: "Women Rain Jacket", price: 39.99, rating: 3.8 },
+  { id: 18, image: "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_t.png", title: "Women's Solid Short", price: 9.85, rating: 4.7 },
+  { id: 19, image: "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_t.png", title: "Opna Women's Short", price: 7.95, rating: 4.5 },
+  { id: 20, image: "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_t.png", title: "Womens T Shirt", price: 12.99, rating: 3.6 }
+]

@@ -1,0 +1,255 @@
+.otherContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 15px;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.electricCard{
+    padding: 10px;
+    box-shadow: 0 0 4px 0 black;
+    border-radius: 20px;
+}
+
+.electricCard img{
+    width: 100%;
+    object-fit: contain;
+    height: 200px;
+}
+
+.electricCard p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin : 5px 0 0 8px;
+}
+
+.electricCard h3{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    margin : 5px 0 0 8px;
+}
+
+.electricCard h4{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 5px 0 0 8px;
+}
+
+.otherBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherBtn button{
+    padding: 8px;
+    width: 300px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(142, 142, 233);
+    font-size: 20px;
+    outline: none;
+    font-weight: bold;
+    margin: 8px 0 8px 0;
+    box-shadow: 0 0 4px 0 black;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.otherBtn button:hover{
+    transform: translateY(-5px);
+}
+
+/* Extra Large Screens (1600px+) */
+@media (min-width: 1600px) {
+    .otherContainer {
+        gap: 50px;
+    }
+
+    .electricCard img {
+        height: 260px;
+    }
+
+    .electricCard p {
+        font-size: 22px;
+    }
+
+    .electricCard h3 {
+        font-size: 25px;
+    }
+
+    .electricCard h4 {
+        font-size: 27px;
+    }
+
+    .otherBtn button {
+        width: 350px;
+        font-size: 22px;
+    }
+}
+
+
+/* Laptops (1200px) */
+@media (max-width: 1200px) {
+    .otherContainer {
+        gap: 30px;
+    }
+
+    .electricCard img {
+        height: 180px;
+    }
+
+    .electricCard p {
+        font-size: 18px;
+    }
+
+    .electricCard h3 {
+        font-size: 20px;
+    }
+
+    .electricCard h4 {
+        font-size: 21px;
+    }
+}
+
+
+/* Tablets (900px) */
+@media (max-width: 900px) {
+    .otherContainer {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .electricCard {
+        padding: 8px;
+    }
+
+    .electricCard img {
+        height: 170px;
+    }
+
+    .electricCard p {
+        font-size: 16px;
+    }
+
+    .electricCard h3 {
+        font-size: 18px;
+    }
+
+    .electricCard h4 {
+        font-size: 19px;
+    }
+
+    .otherBtn button {
+        width: 250px;
+        font-size: 17px;
+    }
+}
+
+
+/* Small Tablets and Mobile (600px) */
+@media (max-width: 600px) {
+    .otherContainer {
+        gap: 15px;
+    }
+
+    .electricCard img {
+        height: 150px;
+    }
+
+    .electricCard p {
+        font-size: 15px;
+    }
+
+    .electricCard h3 {
+        font-size: 17px;
+    }
+
+    .electricCard h4 {
+        font-size: 18px;
+    }
+
+    .otherBtn button {
+        width: 80%;
+        font-size: 16px;
+    }
+}
+
+
+/* Small Mobile (400px) */
+@media (max-width: 400px) {
+    .otherContainer {
+        gap: 10px;
+        padding: 5px;
+    }
+
+    .electricCard {
+        padding: 6px;
+        border-radius: 12px;
+    }
+
+    .electricCard img {
+        height: 120px;
+    }
+
+    .electricCard p {
+        font-size: 13px;
+        margin-left: 4px;
+    }
+
+    .electricCard h3 {
+        font-size: 15px;
+        margin-left: 4px;
+    }
+
+    .electricCard h4 {
+        font-size: 16px;
+        margin-left: 4px;
+    }
+
+    .otherBtn button {
+        width: 85%;
+        font-size: 14px;
+        padding: 7px;
+    }
+}
+
+
+/* Extra Small Mobile (320px) */
+@media (max-width: 320px) {
+    .otherContainer {
+        gap: 8px;
+    }
+
+    .electricCard {
+        padding: 5px;
+    }
+
+    .electricCard img {
+        height: 100px;
+    }
+
+    .electricCard p {
+        font-size: 11px;
+    }
+
+    .electricCard h3 {
+        font-size: 13px;
+    }
+
+    .electricCard h4 {
+        font-size: 14px;
+    }
+
+    .otherBtn button {
+        font-size: 13px;
+        width: 90%;
+    }
+}

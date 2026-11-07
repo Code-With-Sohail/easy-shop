@@ -1,0 +1,228 @@
+.electric-h1{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.electric-h1 h1{
+      font-family: 'Dancing Script', cursive;
+      font-size: 2.5rem;
+      color: blue;
+      text-shadow: 0 0 3px black;
+}
+
+.electricContainer{
+    display: flex;
+    justify-content:center ;
+    align-items: center ;
+    width: 100%;
+}
+
+.elecCard{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 0 black;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+
+.elecCard:hover{
+    transform: scale(1.01);
+}
+
+.elecCard img{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.elecCard h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 8px;
+}
+
+.elecCard h4{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: oblique;
+    margin: 5px 0 0 8px;
+}
+
+.elecCard h5{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    margin: 5px 0 0 8px;
+}
+
+/* Extra Large Screens (1600px+) */
+@media (min-width: 1600px) {
+    .electric-h1 h1 {
+        font-size: 3rem;
+    }
+
+    .elecCard {
+        padding: 15px;
+    }
+
+    .elecCard img {
+        height: 480px;
+    }
+
+    .elecCard h3 {
+        font-size: 28px;
+    }
+
+    .elecCard h4 {
+        font-size: 25px;
+    }
+
+    .elecCard h5 {
+        font-size: 22px;
+    }
+}
+
+
+/* Large Laptops (1200px) */
+@media (max-width: 1200px) {
+    .elecCard img {
+        height: 350px;
+    }
+
+    .elecCard h3 {
+        font-size: 23px;
+    }
+
+    .elecCard h4 {
+        font-size: 20px;
+    }
+
+    .elecCard h5 {
+        font-size: 18px;
+    }
+}
+
+
+/* Tablets (900px) */
+@media (max-width: 900px) {
+    .electric-h1 h1 {
+        font-size: 2.2rem;
+    }
+
+    .elecCard {
+        padding: 8px;
+        border-radius: 15px;
+    }
+
+    .elecCard img {
+        height: 280px;
+    }
+
+    .elecCard h3 {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .elecCard h4 {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    .elecCard h5 {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+}
+
+
+/* Small Tablets and Mobile (600px) */
+@media (max-width: 600px) {
+    .electric-h1 h1 {
+        font-size: 2rem;
+    }
+
+    .elecCard {
+        padding: 8px;
+    }
+
+    .elecCard img {
+        height: 230px;
+    }
+
+    .elecCard h3 {
+        font-size: 18px;
+    }
+
+    .elecCard h4 {
+        font-size: 17px;
+    }
+
+    .elecCard h5 {
+        font-size: 15px;
+    }
+}
+
+
+/* Small Mobile (400px) */
+@media (max-width: 400px) {
+    .electric-h1 {
+        margin: 8px 0;
+    }
+
+    .electric-h1 h1 {
+        font-size: 1.7rem;
+    }
+
+    .elecCard {
+        padding: 6px;
+        border-radius: 12px;
+    }
+
+    .elecCard img {
+        height: 180px;
+    }
+
+    .elecCard h3 {
+        font-size: 16px;
+        margin-left: 4px;
+    }
+
+    .elecCard h4 {
+        font-size: 15px;
+        margin-left: 4px;
+    }
+
+    .elecCard h5 {
+        font-size: 14px;
+        margin-left: 4px;
+    }
+}
+
+
+/* Extra Small Mobile (320px) */
+@media (max-width: 320px) {
+    .electric-h1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .elecCard {
+        padding: 5px;
+    }
+
+    .elecCard img {
+        height: 150px;
+    }
+
+    .elecCard h3 {
+        font-size: 14px;
+    }
+
+    .elecCard h4 {
+        font-size: 13px;
+    }
+
+    .elecCard h5 {
+        font-size: 12px;
+    }
+}

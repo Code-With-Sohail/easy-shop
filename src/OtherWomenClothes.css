@@ -1,0 +1,211 @@
+.otherWomenContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 15px;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.otherWomenCards{
+    padding: 10px;
+    box-shadow: 0 0 4px 0 black;
+    border-radius: 20px;
+}
+
+.otherWomenCards img{
+    width: 100%;
+    object-fit: contain;
+    height: 200px;
+}
+
+.otherWomenCards p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin : 5px 0 0 8px;
+}
+
+.otherWomenCards h3{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    margin : 5px 0 0 8px;
+}
+
+.otherWomenCards h4{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 5px 0 0 8px;
+}
+
+.otherBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherBtn button{
+    padding: 8px;
+    width: 300px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(142, 142, 233);
+    font-size: 20px;
+    outline: none;
+    font-weight: bold;
+    margin: 8px 0 8px 0;
+    box-shadow: 0 0 4px 0 black;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.otherBtn button:hover{
+    transform: translateY(-5px);
+}
+
+/* Large screens */
+@media (max-width: 1600px) {
+    .otherWomenCards img {
+        height: 190px;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1200px) {
+    .otherWomenContainer {
+        gap: 30px;
+    }
+
+    .otherWomenCards img {
+        height: 180px;
+    }
+
+    .otherWomenCards p {
+        font-size: 18px;
+    }
+
+    .otherWomenCards h3 {
+        font-size: 20px;
+    }
+
+    .otherWomenCards h4 {
+        font-size: 22px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .otherWomenContainer {
+        gap: 20px;
+    }
+
+    .otherWomenCards img {
+        height: 170px;
+    }
+
+    .otherWomenCards p {
+        font-size: 17px;
+    }
+
+    .otherWomenCards h3 {
+        font-size: 19px;
+    }
+
+    .otherWomenCards h4 {
+        font-size: 20px;
+    }
+
+    .otherBtn button {
+        width: 250px;
+        font-size: 18px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .otherWomenContainer {
+        gap: 15px;
+        padding: 8px;
+    }
+
+    .otherWomenCards {
+        padding: 8px;
+    }
+
+    .otherWomenCards img {
+        height: 150px;
+    }
+
+    .otherWomenCards p {
+        font-size: 15px;
+    }
+
+    .otherWomenCards h3 {
+        font-size: 17px;
+    }
+
+    .otherWomenCards h4 {
+        font-size: 18px;
+    }
+
+    .otherBtn button {
+        width: 220px;
+        font-size: 16px;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 400px) {
+    .otherWomenContainer {
+        gap: 12px;
+    }
+
+    .otherWomenCards img {
+        height: 130px;
+    }
+
+    .otherWomenCards p {
+        font-size: 13px;
+    }
+
+    .otherWomenCards h3 {
+        font-size: 15px;
+    }
+
+    .otherWomenCards h4 {
+        font-size: 16px;
+    }
+
+    .otherBtn button {
+        width: 190px;
+        font-size: 15px;
+    }
+}
+
+/* Very small mobile */
+@media (max-width: 320px) {
+    .otherWomenCards img {
+        height: 110px;
+    }
+
+    .otherWomenCards p {
+        font-size: 12px;
+    }
+
+    .otherWomenCards h3 {
+        font-size: 14px;
+    }
+
+    .otherWomenCards h4 {
+        font-size: 15px;
+    }
+
+    .otherBtn button {
+        width: 170px;
+        font-size: 14px;
+    }
+}
