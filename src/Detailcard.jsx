@@ -63,8 +63,8 @@ const Detailcard = () => {
 
     return (
         <>
-            <Navbar />
             {isOpendone && handleDoneCard()}
+            <Navbar />
             <div className="detailCard">
                 <div className="left">
                     <img src={item.image} alt="image" />
