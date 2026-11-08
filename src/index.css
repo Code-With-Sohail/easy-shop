@@ -108,7 +108,7 @@ ul li a:hover {
   color: red;
   font-weight: bold;
   word-spacing: 2px;
-  text-shadow: 0 0 5px blue;
+  text-shadow: 0 0 2px yellow;
 }
 
 .left-right-icons {

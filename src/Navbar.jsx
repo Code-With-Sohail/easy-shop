@@ -15,11 +15,11 @@ const Navbar = () => {
                 </div>
 
                 <ul className={menuOpen ? "nav-links active" : "nav-links"}>
-                    <li><a href="#home" onClick={() => setMenuOpen(false)}>Home</a></li>
-                    <li><a href="#shop" onClick={() => setMenuOpen(false)}>Shop</a></li>
-                    <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
-                    <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
-                    <li><a href="#sale" onClick={() => setMenuOpen(false)}>Sale</a></li>
+                    <li><a href="/#home" onClick={() => setMenuOpen(false)}>Home</a></li>
+                    <li><a href="/#shop" onClick={() => setMenuOpen(false)}>Shop</a></li>
+                    <li><a href="/#about" onClick={() => setMenuOpen(false)}>About</a></li>
+                    <li><a href="/#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
+                    <li><a href="/#sale" onClick={() => setMenuOpen(false)}>Sale</a></li>
                 </ul>
 
                 <div className="icons">

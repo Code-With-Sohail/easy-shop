@@ -9,7 +9,6 @@ import OtherWomenClothes from "./OtherWomenClothes.jsx"
 import OtherWomenClothesDetailCards from "./OtherWomenClothesDetailCards.jsx"
 
 function App() {
-
   return (
     <>
       <Routes>
